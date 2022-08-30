@@ -1,0 +1,25 @@
+{
+  "name": "astro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browser": {
+    "child_process": false
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.9.0",
+    "koa-router": "^10.0.0",
+    "mathjs": "^9.1.0",
+    "net": "^1.0.2",
+    "rambda": "^5.13.1",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "path": "^0.12.7"
+  }
+}
